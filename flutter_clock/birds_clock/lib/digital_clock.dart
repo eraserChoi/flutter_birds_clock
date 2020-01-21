@@ -165,8 +165,8 @@ class _DigitalClockState extends State<DigitalClock> {
               style: defaultStyle,
               child: Stack(
                 children: <Widget>[
-                  Positioned(left: MediaQuery.of(context).size.width /2, top: MediaQuery.of(context).size.width /3.5, child: Text("${meridiem}",style: TextStyle(fontSize: MediaQuery.of(context).size.width /12,fontFamily: 'Silom',),)),
-                  Positioned(left: MediaQuery.of(context).size.width /2, top: MediaQuery.of(context).size.width /2.9, child: Text(hour +" : "+minute)),
+                  Positioned(left: MediaQuery.of(context).size.width /1.8, top: MediaQuery.of(context).size.width /3.1, child: Text("${meridiem}",style: TextStyle(fontSize: MediaQuery.of(context).size.width /17,fontFamily: 'Silom',),)),
+                  Positioned(left: MediaQuery.of(context).size.width /1.8, top: MediaQuery.of(context).size.width /3, child: Text(hour +":"+minute)),
                 ],
               ),
             ),
